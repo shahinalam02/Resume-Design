@@ -1,0 +1,172 @@
+body {
+    background-color: #43d886;
+    margin: 0px;
+}
+
+.resume {
+    display: flex;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile {
+    width: 450px;
+    height: 600px;
+    background-color: #43d886;
+    border: 2px solid #fffefe;
+    border-radius: 20px;
+    position: relative;
+    left: 80px;
+    top: 20px;
+    box-shadow: 5px 0px 20px #46554e;
+}
+
+img {
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 100px;
+    border-left: 30px solid #ffe0e7;
+    border-right: 30px solid #d9e1ff;
+}
+
+.text-info {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+}
+
+h3 {
+    margin-top: 0px;
+    font-weight: 200;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+.button-info {
+    font-family: Helvetica, sans-serif;
+    margin-top: 101px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    padding: 22px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+li {
+    list-style-type: none;
+}
+
+.line {
+    height: 25px;
+}
+
+.social-icons {
+    display: inline-block;
+}
+
+.fa-brands {
+    padding-left: 10px;
+    color: #4e4e4e;
+}
+
+.other-info {
+    height: 560px;
+    width: 600px;
+    position: relative;
+    left: -149px;
+    top: 40px;
+    background-color: #ffffff;
+    border-radius: 0px 20px 20px 0px;
+    flex: 1;
+    z-index: -1;
+}
+
+.about-text {
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    padding-left: 50px;
+    color: #4e4e4e;
+
+}
+
+hr {
+    width: 280px;
+    margin: 25px;
+}
+
+.about01 {
+    width: 500px;
+    display: block;
+    margin-left: 50px;
+    font-family: Helvetica, sans-serif;
+}
+
+i {
+    color: #229154;
+    font-weight: 700;
+}
+.myservices{
+    display: flex;
+
+}
+.service {
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-top: 10px;
+    color: #4e4e4e;
+}
+
+.fa-solid {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 5px;
+}
+.web-dev {
+    margin-left: 80px;
+    box-shadow: 0px 5px 20px #a4adaa;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 15px;
+}
+.web-des {
+    margin-left: 60px;
+    box-shadow: 0px 5px 20px #a4adaa;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 15px;
+}
+.code {
+    background-color: #43d886;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+
+.design {
+    background-color: #43d886;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 80px;
+
+}
+.dev {
+    width: 200px;
+    justify-content: center;
+}
